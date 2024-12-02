@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+  font-family:  Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+h1:active{
+    background-color: blue;
+}
+
+#about{
+    width: 150px;
+    height: 150px;
+    padding:20px;
+    border:solid black 1px
+}
+
+a[href ='ttps://generalassemb.ly/']{
+    background-color: green;
+}
+
+h1:hover{
+    background-color: red;
+}
+
+h1:active{
+    background-color: blue;
+}
+
+a:active{
+    color:green
+}
+
+
+input:disabled{
+    border:solid red 2px;
+}
+
+li:nth-child(3){
+    color:red
+}
+
+/* ul >li{
+    color:blue
+} */
+/* a:hover{
+    background-color: red;
+} */
+
+
+p::first-letter{
+    color:blue
+}
+
+p::first-line{
+    font-weight: 900;
+}
+
+.super-cool > p{
+    background-color: purple;
+}
+
+div ~ div{
+    color: green;
+}
+
+
+h3::after{
+    content:"Abdulaziz";
+    color:green;
+    font-weight:bold
+}
+
+#img-container{
+    width: 350px
+}
+
+
+img{
+    height:200px;
+    width: 100vw;
+}
+
+html{
+    font-size:10px
+}
+
+p{
+    font-size: 2rem
+}
+
+#teacher-container{
+    font-size: 20px
+}
+
+#teacher-container > li{
+    font-size:.5em
+}
+
+
+* {
+    box-sizing: border-box
+  }
+  
+  body {
+   /* Use a system font; if none are available, use an available sans-serif font */
+    font-family: system-ui, sans-serif;
+    /* Ensures full height compatibility across devices */
+    min-height: 100dvh;
+    margin: 0;
+  }
