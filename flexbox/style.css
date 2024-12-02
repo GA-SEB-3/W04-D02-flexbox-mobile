@@ -1,0 +1,65 @@
+#flex-container{
+    width:100%;
+    height: 100vh;
+    border:solid;
+
+    /* makes my container a flexbox container */
+    display: flex;
+
+
+    /* changes the main and cross axis */
+
+    flex-direction: row;
+
+
+    flex-wrap:wrap;
+
+
+    /* aligns my items along the main axis */
+    justify-content: space-between;
+
+
+    /* cross axis alignment */
+
+    align-items: flex-start;
+
+
+}
+
+.flex-item{
+    height:50px;
+    width:50px;
+    /* margin: 10px; */
+    text-align: center;
+}
+
+#item-1{
+    
+    background-color:red;
+
+  
+    
+    
+}
+
+#item-2{
+    background-color:blue;
+
+}
+
+#item-3{
+    background-color:purple;
+  
+}
+
+#item-4{
+    background-color:green
+}
+
+#item-5{
+    background-color:yellow
+}
+
+#item-6{
+    background-color:aqua
+}
